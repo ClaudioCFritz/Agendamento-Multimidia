@@ -2,7 +2,9 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
- * {
+  <title>Agendamento de Tarefas</title>
+  <style>
+    * {
       box-sizing: border-box;
     }
 
@@ -130,9 +132,8 @@
       <button onclick="mostrarAgendamentos(); mudarTela('tela2')">Ver Agendamentos</button>
     </div>
 
-    <!-- Tela de agendamentos -->
+    <!-- Tela de agendamentos (sem título "Agendamentos Atuais") -->
     <div id="tela2" class="tela">
-      <h2>Agendamentos Atuais</h2>
       <ul id="listaAgendamentos"></ul>
       <button class="back-btn" onclick="mudarTela('tela1')">Voltar ao Início</button>
     </div>
