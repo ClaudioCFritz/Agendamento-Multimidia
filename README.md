@@ -1,133 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Agendamento de Tarefas</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #121212;
-      color: #ffffff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-
-    .container {
-      width: 100%;
-      max-width: 500px;
-      background: #1f1f1f;
-      border-radius: 10px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-      padding: 30px;
-      margin: 20px;
-    }
-
-    h2 {
-      text-align: center;
-      color: #f9f9f9;
-    }
-
-    .tela {
-      display: none;
-    }
-
-    .ativa {
-      display: block;
-    }
-
-    button {
-      width: 100%;
-      padding: 12px;
-      margin-top: 16px;
-      border: none;
-      border-radius: 8px;
-      font-size: 1rem;
-      background-color: #03dac5;
-      color: #000;
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #018786;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin-top: 20px;
-    }
-
-    li {
-      background: #2c2c2c;
-      margin: 8px 0;
-      padding: 10px;
-      border-radius: 8px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    .task-label {
-      font-size: 1rem;
-      font-weight: 500;
-      text-align: left;
-    }
-
-    .task-checkbox {
-      transform: scale(1.3);
-    }
-
-    .delete-icon {
-      margin-left: 10px;
-      cursor: pointer;
-      color: #ff6b6b;
-      font-weight: bold;
-    }
-
-    .delete-icon:hover {
-      color: #ff4d4d;
-    }
-
-    .back-btn {
-      background-color: #ff6b6b;
-      color: white;
-    }
-
-    .back-btn:hover {
-      background-color: #c0392b;
-    }
-
-    .form-agendar {
-      margin-top: 10px;
-      width: 100%;
-    }
-
-    .form-agendar input,
-    .form-agendar select {
-      width: 100%;
-      padding: 8px;
-      margin: 6px 0;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 0.9rem;
-    }
-
-    .logout-btn {
-      background-color: #555;
-      color: white;
-      margin-top: 10px;
-    }
-  </style>
+</style>
 </head>
 <body>
   <div class="container">
@@ -315,3 +186,39 @@
   </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendamento de Tarefas</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #121212;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <h1>Agendamento de Tarefas</h1>
+</body>
+</html>
+
