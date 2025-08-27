@@ -121,12 +121,6 @@
       border-radius: 6px;
       font-size: 0.9rem;
     }
-
-    .logout-btn {
-      background-color: #555;
-      color: white;
-      margin-top: 10px;
-    }
   </style>
 </head>
 <body>
@@ -143,7 +137,6 @@
       <h2>Agendamentos Atuais</h2>
       <ul id="listaAgendamentos"></ul>
       <button class="back-btn" onclick="mudarTela('tela1')">Voltar ao Início</button>
-      <button class="logout-btn" onclick="sairApp()">Sair do App</button>
     </div>
   </div>
 
@@ -304,10 +297,6 @@
     function mudarTela(telaId) {
       document.querySelectorAll(".tela").forEach(tela => tela.classList.remove("ativa"));
       document.getElementById(telaId).classList.add("ativa");
-    }
-
-    function sairApp() {
-      location.reload(); // Ou window.location.href = "https://sua-pagina-inicial.com";
     }
 
     carregarAgendamentos();
