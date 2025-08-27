@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Agendamento de Tarefas</title>
   <style>
-    * {
+     {
       box-sizing: border-box;
     }
 
